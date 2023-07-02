@@ -50,7 +50,7 @@ export const App = () => {
         <FeedbackOptions
           options={Object.keys(statusInfo)}
           onLeaveFeedback={onLeaveFeedback}
-        ></FeedbackOptions>
+        />
         {countTotalFeedback() !== 0 ? (
           <Statistic
             good={good}
